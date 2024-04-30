@@ -14,7 +14,7 @@ One 1-bit carry-out output: C_out
 <img src="https://github.com/BearLand0713/Basic_Circuits_Design/blob/main/comb_8_bit_adder_subtractor/picture/8b_addsub.png" width="400" height="300">  
 The combined 8-bit adder/subtractor consists of XOR, NOT, and adder 8 (8-bit adder). XOR is used to compute the complement operation of B and determines whether to perform an addition or subtraction operation through NOT (add_ctrl).  
 
-<img src="https://github.com/BearLand0713/Basic_Circuits_Design/blob/main/comb_8_bit_adder_subtractor/picture/adder8.png" width="400" height="300">   
+<img src="https://github.com/BearLand0713/Basic_Circuits_Design/blob/main/comb_8_bit_adder_subtractor/picture/adder8.png" width="400" height="150">   
 Adder8 consists of two adder4 (4-bit CLA adder) in series.  
 
 <img src="https://github.com/BearLand0713/Basic_Circuits_Design/blob/main/comb_8_bit_adder_subtractor/picture/adder4.png" width="400" height="300">  
