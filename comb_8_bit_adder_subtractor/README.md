@@ -3,11 +3,11 @@
 This is a combinational 8-bit adder/subtractor, which can handle two 8-bit binary inputs to do addition or subtraction with a one-bit controller  
 
 ### Input  
-Two 8-bit operands: A, B  
-One 1-bit control input for addition/subtraction: Add_ctrl (Add_ctrl=1 (0) for addition (subtraction))  
+**Two 8-bit operands:** A, B  
+**One 1-bit control input for addition/subtraction:** Add_ctrl (Add_ctrl=1 (0) for addition (subtraction))  
 ### Output  
-One 8-bit sum output: SUM  
-One 1-bit carry-out output: C_out  
+**One 8-bit sum output:** SUM  
+**One 1-bit carry-out output:** C_out  
 
 
 ## Structure  
