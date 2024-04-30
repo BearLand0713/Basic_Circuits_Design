@@ -4,9 +4,6 @@ This is a practical traffic light controller that integrates a synchronization c
 
 <table>
     <tr>
-        <th>班级</th><th>课程</th><th>平均分</th>
-    </tr>
-    <tr>
         <td rowspan="3">1班</td><td>语文</td><td>95</td>
     </tr>
     <tr>
