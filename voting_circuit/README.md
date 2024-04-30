@@ -12,7 +12,9 @@ This is a voting circuit that accepts five three-bit one-hot numbers and outputs
 ## Structure  
   
 <img src="https://github.com/BearLand0713/Basic_Circuits_Design/blob/main/voting_circuit/picture/VM.png" width="400" height="300">  
-The entire voting machine consists of adders, 2x1 multiplexers, comparators, ANDs, and NOTs. The functions of each element are described below.   
+
+The entire voting machine consists of adders, 2x1 multiplexers, comparators, ANDs, and NOTs. The functions of each element are described below.
+  
 **Adder**   
 Since the inputs are all one hot numbers, the five inputs are added up by bits to get the number of times the bit 1 occurs.  
 **Comparator**  
@@ -36,7 +38,7 @@ And call the system function $monitor to display the value when A,B,C,D,E,R chan
 <img src="https://github.com/BearLand0713/Basic_Circuits_Design/blob/main/voting_circuit/picture/gatecount.png" width="400" height="300">  
   
 ### Critical Path  
-<img src="https://github.com/BearLand0713/Basic_Circuits_Design/blob/main/voting_circuit/picture/criticalpath.png" width="400" height="300">  
+<img src="https://github.com/BearLand0713/Basic_Circuits_Design/blob/main/voting_circuit/picture/criticalpath.jpg" width="400" height="300">  
   
 ### Power  
 <img src="https://github.com/BearLand0713/Basic_Circuits_Design/blob/main/voting_circuit/picture/power.png" width="400" height="300">  
