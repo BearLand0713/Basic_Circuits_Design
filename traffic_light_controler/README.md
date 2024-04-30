@@ -47,10 +47,10 @@ This design is a pedestrian-friendly intersection, separating the traffic light 
 
 ## Structure  
     
-<img src="https://github.com/BearLand0713/Basic_Circuits_Design/blob/main/traffic_light_controler/picture/TCL.png" width="400" height="300">  
+<img src="https://github.com/BearLand0713/Basic_Circuits_Design/blob/main/traffic_light_controler/picture/TLC.png" width="400" height="300">  
 The traffic light controller consists of a Counter and a finite state machine (TLcontroller). The counter is responsible for counter timing. The TLcontroller is responsible for handling state.  
   
-<img src="https://github.com/BearLand0713/Basic_Circuits_Design/blob/main/traffic_light_controler/picture/detailed_TCL.png" width="600" height="300"> 
+<img src="https://github.com/BearLand0713/Basic_Circuits_Design/blob/main/traffic_light_controler/picture/detailed_TLC.png" width="600" height="300"> 
 This is the detailed Schematic diagram of each components.  
   
 ### finite state machine (TLcontroller) 
