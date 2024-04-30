@@ -1,16 +1,43 @@
 # Traffic Light Controller  
 
-This is a practical traffic light controller that integrates a synchronization counter with reset and count enable functions as a timer to control the timing of light transitions.     
+This is a practical traffic light controller that integrates a synchronization counter with reset and count enable functions as a timer to control the timing of light transitions.  
+
+## Description
+This design is a pedestrian-friendly intersection, separating the traffic light signals for sidewalks from those for vehicles, making it safer for pedestrians to cross the street and solving the problem of turning cars not yielding to pedestrians. It also extends the duration of the green and yellow lights for pedestrians, making it easier for the elderly to cross the street.  
 
 <table>
     <tr>
-        <td rowspan="3">1班</td><td>语文</td><td>95</td>
+        <td rowspan="2">Input</td><td>clk</td><td>clock</td>
     </tr>
     <tr>
-        <td>数学</td><td>96</td>
+        <td>reset</td><td>reset when 1</td>
     </tr>
     <tr>
-        <td>英语</td><td>92</td>
+        <td rowspan="9">Output</td><td>R0G</td><td>Green light of Road 0(1 ON/0 off)</td>
+    </tr>
+    <tr>
+        <td>R0Y</td><td>Yellow light of Road 0(1 ON/0 off)</td>
+    </tr>
+    <tr>
+        <td>R0R</td><td>Red light of Road 0(1 ON/0 off)</td>
+    </tr>
+    <tr>
+        <td>R1G</td><td>Green light of Road 1(1 ON/0 off)</td>
+    </tr>
+    <tr>
+        <td>R1Y</td><td>Yellow light of Road 1(1 ON/0 off)</td>
+    </tr>
+    <tr>
+        <td>R1R</td><td>Red light of Road 1(1 ON/0 off)</td>
+    </tr>
+    <tr>
+        <td>CG</td><td>Green light of crosswalk(1 ON/0 off)</td>
+    </tr>
+    <tr>
+        <td>CY</td><td>Yellow light of crosswalk(1 ON/0 off)</td>
+    </tr>
+    <tr>
+        <td>CR</td><td>Red light of crosswalk(1 ON/0 off)</td>
     </tr>
 </table>
    
