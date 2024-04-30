@@ -3,7 +3,8 @@
 This is a practical traffic light controller that integrates a synchronization counter with reset and count enable functions as a timer to control the timing of light transitions.  
 
 ## Description
-This design is a pedestrian-friendly intersection, separating the traffic light signals for sidewalks from those for vehicles, making it safer for pedestrians to cross the street and solving the problem of turning cars not yielding to pedestrians. It also extends the duration of the green and yellow lights for pedestrians, making it easier for the elderly to cross the street. 
+This design is a pedestrian-friendly intersection, separating the traffic light signals for sidewalks from those for vehicles, making it safer for pedestrians to cross the street and solving the problem of turning cars not yielding to pedestrians. It also extends the duration of the green and yellow lights for pedestrians, making it easier for the elderly to cross the street.  
+  
 <img src="https://github.com/BearLand0713/Basic_Circuits_Design/blob/main/traffic_light_controler/picture/intersec.png" width="400" height="300">
 
 <table>
